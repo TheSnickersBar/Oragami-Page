@@ -1,8 +1,8 @@
-.header{
-    border:solid;
+.header .menu{
+    border:solid;   
     background-color:#2EB6DB;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .grid{
@@ -10,6 +10,7 @@
     border-radius: 50px;
     display:flex;
     flex-wrap:wrap;
+    justify-content: space-evenly;
 }
 
 .Oragami{
