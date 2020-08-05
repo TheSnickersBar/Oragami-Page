@@ -1,8 +1,14 @@
-.header .menu{
+.header .menu   {
     border:solid;   
     background-color:#2EB6DB;
     display:flex;
     justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+
 }
 
 .grid{
@@ -13,11 +19,22 @@
     justify-content: space-evenly;
 }
 
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
 .Oragami{
 
     border-radius:  20px;
     background-color: white;
-
+    padding: 30px;
+    margin: 25px;
     width: 310px;
     font-family: fantasy;
+}
+
+.body{
+    margin:0px;
+    background-color: #f7f2f2;
 }
